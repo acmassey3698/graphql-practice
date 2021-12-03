@@ -1,3 +1,3 @@
 class Author < ApplicationRecord
-  has_may :posts
+  has_many :posts
 end
